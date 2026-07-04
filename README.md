@@ -179,3 +179,48 @@ climate-forecasting-computation-simulation-lab/
 │   ├── ann,lstm,cnn,rnn,svr.ipynb
     └── randomforest.ipynb
 
+---
+```
+## Technologies and Libraries Used
+Python
+NumPy
+Pandas
+Matplotlib
+Xarray
+Scikit-learn
+Statsmodels
+TensorFlow
+Keras
+NetCDF4
+
+## Installation
+
+Clone the repository:
+git clone https://github.com/Chaitran06/climate-forecasting-computation-simulation-lab.git
+cd climate-forecasting-computation-simulation-lab
+
+## Install the required libraries:
+pip install -r requirements.txt
+
+## Run Jupyter Notebook:
+jupyter notebook
+
+Open the notebooks folder and run the model notebooks.
+
+## Results Summary
+The project compared multiple forecasting approaches for climate data.
+
+ARIMA and SARIMA were useful for statistical forecasting of monthly SST data.
+SARIMA was suitable for monthly SST because it considers seasonal patterns.
+Linear Regression helped analyze the influence of ENSO on SST.
+Spatial regression maps showed seasonal ENSO influence across different oceanic regions.
+ANN, RNN, LSTM, and CNN were used for Niño 3.4 sequence prediction.
+SVM and Random Forest were used as machine learning baselines for ENSO forecasting.
+Deep learning models were able to capture temporal patterns from previous monthly values.
+
+## Conclusion
+
+This project demonstrates the application of statistical, machine learning, and deep learning models for climate time-series forecasting. Traditional models such as ARIMA and SARIMA provide interpretable forecasting methods, while machine learning and deep learning models can capture nonlinear and temporal dependencies in climate indices.
+
+The experiments show how climate datasets such as ERA5 SST and NOAA Niño 3.4 can be used for forecasting, regression analysis, spatial visualization, and model comparison.
+
